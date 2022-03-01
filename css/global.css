@@ -1,0 +1,9 @@
+.botao-principal {
+    background-image: linear-gradient(to right, #fc5185, #f83771);
+    color: white;
+}
+
+.botao-secundario {
+    color: var(--rosa-escuro);
+    border-color: var(--rosa-escuro);
+}
