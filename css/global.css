@@ -7,3 +7,7 @@
     color: var(--rosa-escuro);
     border-color: var(--rosa-escuro);
 }
+
+h5 {
+    text-transform: uppercase;
+}

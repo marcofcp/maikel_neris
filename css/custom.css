@@ -32,3 +32,20 @@ body {
 .sobre {
     margin-bottom: 100px;
 }
+
+/* SERVIÇOS */
+
+.imagem {
+    background-color: var(--cor-cinza);
+}
+
+.imagem-servico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.imagem-servico img {
+    max-height: 160px;
+}
