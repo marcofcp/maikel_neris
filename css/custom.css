@@ -49,3 +49,52 @@ body {
 .imagem-servico img {
     max-height: 160px;
 }
+
+.servicos {
+    margin-bottom: 100px;
+}
+
+/* MARCAS */
+
+.imagem-marca {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.imagem-marca:hover {
+    filter: grayscale(0);
+    transform: scale(1.3, 1.3);
+    border: none;
+}
+
+.experiencia {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.experiencia span {
+    display: block;
+    font-size: 6em;
+    font-weight: 900;
+    color: #364F6B;
+    letter-spacing: -15px;
+}
+
+.box-experiencia {
+    background-color: var(--cor-cinza);
+    padding-top: 20px;
+}
+
+.imagem-telefone {
+    padding-bottom: 20px;
+}
+
+#numero-atendimento {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #797979;
+}

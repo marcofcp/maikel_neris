@@ -1,5 +1,26 @@
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     .section1 {
         margin-bottom: 50px;
     }
-  }
+    .servicos {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagem-servico {
+        height: 120px;
+    }
+    .imagem-serviço img {
+        max-height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .imagem-marca {
+        filter: none;
+    }
+    .imagem-marca:hover {
+        transform: scale(1, 1);
+    }
+}
