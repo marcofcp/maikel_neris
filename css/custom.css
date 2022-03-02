@@ -78,7 +78,7 @@ body {
 
 .experiencia span {
     display: block;
-    font-size: 6em;
+    font-size: 7em;
     font-weight: 900;
     color: #364F6B;
     letter-spacing: -15px;
@@ -86,15 +86,27 @@ body {
 
 .box-experiencia {
     background-color: var(--cor-cinza);
-    padding-top: 20px;
+    padding-top: 60px;
+}
+
+.imagem-clientes {
+    margin-left: -40px;
 }
 
 .imagem-telefone {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 #numero-atendimento {
     font-size: 1.5em;
     font-weight: 600;
     color: #797979;
+}
+
+/* GALERIA */
+
+.galeria {
+    padding-top: 60px;
 }

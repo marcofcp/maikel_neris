@@ -23,4 +23,14 @@
     .imagem-marca:hover {
         transform: scale(1, 1);
     }
+    .imagem-clientes {
+        margin-left: 0;
+    }
+    .imagem-clientes img {
+        text-align: center;
+    }
+    .experiencia, .experiencia span {
+        display: block;
+        text-align: center;
+    }
 }
